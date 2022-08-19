@@ -15,6 +15,10 @@ class options extends StatelessWidget {
        Worldtime place7=Worldtime(url: "Asia/Kathmandu",location:"Nepal");
    Worldtime place8=Worldtime(url: "Asia/Tashkent",location:"Uzbekistan");
        Worldtime place9=Worldtime(url: "Africa/Cairo",location:"Cairo");
+   Worldtime place10=Worldtime(url: "Africa/Cairo",location:"Cairo");
+   Worldtime place11=Worldtime(url: "Africa/Cairo",location:"Cairo");
+   Worldtime place12=Worldtime(url: "Africa/Cairo",location:"Cairo");
+   Worldtime place13=Worldtime(url: "Africa/Cairo",location:"Cairo");
 
 
 
@@ -36,47 +40,48 @@ class options extends StatelessWidget {
        Padding(
          padding: const EdgeInsets.all(8.0),
          child: Card(child:ListTile(title:Text(place1.location.toString()),
-             onTap:() {func(place1.url,place1.location);})),
+             onTap:() {func(place1.url,place1.location);},tileColor: Colors.blueGrey,)),
        ),
     Padding(
       padding: const EdgeInsets.all(8.0),
       child: Card(child:ListTile(title:Text(place2.location.toString()),
-          onTap:() {func(place2.url,place2.location);})),
+          onTap:() {func(place2.url,place2.location);},tileColor: Colors.blueGrey,)),
     ),
     Padding(
       padding: const EdgeInsets.all(8.0),
       child: Card(child:ListTile(title:Text(place3.location.toString()),
-          onTap:() {func(place3.url,place3.location);})),
+          onTap:() {func(place3.url,place3.location);},tileColor: Colors.blueGrey,)),
     ),
     Padding(
       padding: const EdgeInsets.all(8.0),
       child: Card(child:ListTile(title:Text(place4.location.toString()),
-          onTap:() {func(place4.url,place4.location);})),
+          onTap:() {func(place4.url,place4.location);},tileColor: Colors.blueGrey,)),
     ),
        Padding(
          padding: const EdgeInsets.all(8.0),
          child: Card(child:ListTile(title:Text(place5.location.toString()),
-             onTap:() {func(place5.url,place5.location);})),
+             onTap:() {func(place5.url,place5.location);},tileColor: Colors.blueGrey,)),
        ),
        Padding(
          padding: const EdgeInsets.all(8.0),
          child: Card(child:ListTile(title:Text(place6.location.toString()),
-         onTap:() {func(place6.url,place6.location);}),
+         onTap:() {func(place6.url,place6.location);},tileColor: Colors.blueGrey,),
        )),
        Padding(
          padding: const EdgeInsets.all(8.0),
          child: Card(child:ListTile(title:Text(place7.location.toString()),
-             onTap:() {func(place7.url,place7.location);})),
+             onTap:() {func(place7.url,place7.location);},tileColor: Colors.blueGrey,)),
        ),
        Padding(
          padding: const EdgeInsets.all(8.0),
          child: Card(child:ListTile(title:Text(place8.location.toString()),
-             onTap:() {func(place8.url,place8.location);})),
+             onTap:() {func(place8.url,place8.location);},tileColor: Colors.blueGrey,)),
        ),
        Padding(
          padding: const EdgeInsets.all(8.0),
          child: Card(child:ListTile(title:Text(place9.location.toString()),
-             onTap:() {func(place9.url,place9.location);})),
+             onTap:() {func(place9.url,place9.location);},
+             tileColor: Colors.blueGrey,)),
        ),
      ],
        )
